@@ -63,108 +63,44 @@ ComputerGraphics-OpenGL-Setup/
 
 ## Examples and Output
 
-#### Starter (`main.cpp`)
+Each example file is in the `examples` folder (`01_point.cpp`, `02_line.cpp`, ...). `14_basic_structure.cpp` is an empty template, so it has no picture.
 
-A white circle in the middle of the window.
+<table>
+  <tr>
+    <td width="50%" align="center"><img src="screenshots/00_starter_circle.png" alt="Starter (main.cpp) – white circle"><br><sub>Starter (main.cpp) – white circle</sub></td>
+    <td width="50%" align="center"><img src="screenshots/01_point.png" alt="1. Point – GL_POINTS"><br><sub>1. Point – GL_POINTS</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="screenshots/02_line.png" alt="2. Line – GL_LINES"><br><sub>2. Line – GL_LINES</sub></td>
+    <td width="50%" align="center"><img src="screenshots/03_triangle.png" alt="3. Triangle – GL_TRIANGLES"><br><sub>3. Triangle – GL_TRIANGLES</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="screenshots/04_rectangle.png" alt="4. Rectangle – GL_POLYGON"><br><sub>4. Rectangle – GL_POLYGON</sub></td>
+    <td width="50%" align="center"><img src="screenshots/05_colors.png" alt="5. Colors – glColor3f"><br><sub>5. Colors – glColor3f</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="screenshots/06_circle.png" alt="6. Circle – cos and sin"><br><sub>6. Circle – cos and sin</sub></td>
+    <td width="50%" align="center"><img src="screenshots/07_translation.png" alt="7. Translation – glTranslatef"><br><sub>7. Translation – glTranslatef</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="screenshots/08_rotation.png" alt="8. Rotation – glRotatef"><br><sub>8. Rotation – glRotatef</sub></td>
+    <td width="50%" align="center"><img src="screenshots/09_scaling.png" alt="9. Scaling – glScalef"><br><sub>9. Scaling – glScalef</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="screenshots/10_timer_animation.png" alt="10. Timer animation – rotating square"><br><sub>10. Timer animation – rotating square</sub></td>
+    <td width="50%" align="center"><img src="screenshots/11_keyboard.png" alt="11. Keyboard – move with arrow keys"><br><sub>11. Keyboard – move with arrow keys</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="screenshots/12_dda_line.png" alt="12. DDA line algorithm"><br><sub>12. DDA line algorithm</sub></td>
+    <td width="50%" align="center"><img src="screenshots/13_bresenham_line.png" alt="13. Bresenham line algorithm"><br><sub>13. Bresenham line algorithm</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="screenshots/15_planet_system.png" alt="15. Planet system – sun, planet and moon"><br><sub>15. Planet system – sun, planet and moon</sub></td>
+    <td width="50%" align="center"><img src="screenshots/16_collision.png" alt="16. Collision – box turns red when it touches"><br><sub>16. Collision – box turns red when it touches</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><img src="screenshots/17_flag.png" alt="17. Flag of Bangladesh"><br><sub>17. Flag of Bangladesh</sub></td>
+    <td width="50%"></td>
+  </tr>
+</table>
 
-![Starter circle](screenshots/00_starter_circle.png)
-
-#### 1. Point – `01_point.cpp`
-
-Three big points using `GL_POINTS`.
-
-![Point](screenshots/01_point.png)
-
-#### 2. Line – `02_line.cpp`
-
-A horizontal and a vertical line using `GL_LINES`.
-
-![Line](screenshots/02_line.png)
-
-#### 3. Triangle – `03_triangle.cpp`
-
-A triangle using `GL_TRIANGLES`.
-
-![Triangle](screenshots/03_triangle.png)
-
-#### 4. Rectangle – `04_rectangle.cpp`
-
-A square using `GL_POLYGON`.
-
-![Rectangle](screenshots/04_rectangle.png)
-
-#### 5. Colors – `05_colors.cpp`
-
-Red, green and blue squares, and a triangle with mixed colors.
-
-![Colors](screenshots/05_colors.png)
-
-#### 6. Circle – `06_circle.cpp`
-
-Circles drawn with `cos` and `sin`.
-
-![Circle](screenshots/06_circle.png)
-
-#### 7. Translation – `07_translation.cpp`
-
-The green square is the gray square moved with `glTranslatef`.
-
-![Translation](screenshots/07_translation.png)
-
-#### 8. Rotation – `08_rotation.cpp`
-
-The orange square is the gray square rotated 45° with `glRotatef`.
-
-![Rotation](screenshots/08_rotation.png)
-
-#### 9. Scaling – `09_scaling.cpp`
-
-The blue square is the white square made 2 times bigger with `glScalef`.
-
-![Scaling](screenshots/09_scaling.png)
-
-#### 10. Timer Animation – `10_timer_animation.cpp`
-
-A square that keeps rotating using `glutTimerFunc`.
-
-![Timer Animation](screenshots/10_timer_animation.png)
-
-#### 11. Keyboard – `11_keyboard.cpp`
-
-Move the square with the arrow keys, `R` resets it, `Esc` closes.
-
-![Keyboard](screenshots/11_keyboard.png)
-
-#### 12. DDA Line – `12_dda_line.cpp`
-
-Lines drawn pixel by pixel with the DDA algorithm.
-
-![DDA Line](screenshots/12_dda_line.png)
-
-#### 13. Bresenham Line – `13_bresenham_line.cpp`
-
-Lines drawn with the Bresenham algorithm (integers only, any direction).
-
-![Bresenham Line](screenshots/13_bresenham_line.png)
-
-#### 14. Basic Structure – `14_basic_structure.cpp`
-
-Empty program with comments; start every new program from here.
-
-#### 15. Planet System – `15_planet_system.cpp`
-
-A planet goes around the sun and a moon goes around the planet.
-
-![Planet System](screenshots/15_planet_system.png)
-
-#### 16. Collision – `16_collision.cpp`
-
-Move the green box with the arrow keys; it turns red when it touches the white box.
-
-![Collision](screenshots/16_collision.png)
-
-#### 17. Flag – `17_flag.cpp`
-
-The flag of Bangladesh with a rectangle and a circle.
-
-![Flag](screenshots/17_flag.png)
