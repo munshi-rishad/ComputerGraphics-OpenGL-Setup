@@ -6,7 +6,7 @@ Just open the project, write your code in `main.cpp` and run.
 
 It also has **17 small example programs** (points, lines, shapes, colors, transformations, animation, keyboard, DDA, Bresenham and more) that you can run one by one.
 
-**Semester:** Summer 2025-2026 (Computer Graphics)
+**Semester:** Summer 2025-2026
 
 ## Requirements
 
